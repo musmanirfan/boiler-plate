@@ -8,7 +8,7 @@ import React from 'react'
 
 export default function page() {
 
-    const signup = async (userName?: string, email: string, password: string) => {
+    const signup = async (userName: string, email: string, password: string) => {
         try {
             console.log(email, password, userName);
             

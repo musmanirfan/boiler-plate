@@ -5,7 +5,7 @@ import { FormEvent, useState } from 'react'
 
 type signupType = {
     signup?: boolean,
-    func: (userName?: string, email: string, password: string) => void
+    func: (userName: string, email: string, password: string) => void
 }
 
 export default function Auth({ signup, func }: signupType) {
